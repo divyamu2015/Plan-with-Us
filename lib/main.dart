@@ -34,16 +34,16 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Dream Home',
+        title: 'Dream House',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
         home:
             //MyHomePage(),
-          // RoleSelectionScreen(),
-       // LoginScreen()
-        //PropertyInputPage(),
-       SplashScreen(),
+            // RoleSelectionScreen(),
+            // LoginScreen()
+            //PropertyInputPage(),
+            SplashScreen(),
         //  HomePageView(),
       ),
     );
